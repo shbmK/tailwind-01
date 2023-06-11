@@ -1,1 +1,1 @@
-_odin_      . fetch and merge
+_odin_      . fetch and merge, pull origin main
