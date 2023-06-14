@@ -1,8 +1,15 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ['./public/index.html' ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        primary:'#FF6363'
+      },
+      fontFamily:{
+        rmono:['Roboto Mono']
+      }
+    },
   },
   plugins: [],
 }
